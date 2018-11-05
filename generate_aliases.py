@@ -56,6 +56,7 @@ def main():
         ('hpa', 'horizontalpodautoscalers', ['g', 'd', 'rm'], None),
         ('pv', 'persistentvolumes', ['g', 'd', 'rm'], None),
         ('pvc', 'persistentvolumeclaims', ['g', 'd', 'rm'], None),
+        ('sts', 'persistentvolumeclaims', ['g', 'd', 'rm'], None),
         ('no', 'nodes', ['g', 'd'], ['sys']),
         ('ns', 'namespaces', ['g', 'd', 'rm'], ['sys']),
         ]

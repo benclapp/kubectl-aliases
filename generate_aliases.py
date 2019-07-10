@@ -57,6 +57,7 @@ def main():
         ('pv', 'persistentvolumes', ['g', 'd', 'rm'], None),
         ('pvc', 'persistentvolumeclaims', ['g', 'd', 'rm'], None),
         ('sts', 'statefulsets', ['g', 'd', 'rm'], None),
+        ('np', 'networkpolicies', ['g', 'd', 'rm'], None),
         ('no', 'nodes', ['g', 'd'], ['sys']),
         ('ns', 'namespaces', ['g', 'd', 'rm'], ['sys']),
         ]
